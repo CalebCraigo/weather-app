@@ -50,7 +50,7 @@ function App() {
       <h1>weather-app</h1>
       <div className="headers">
         <h2 className='header'>Location</h2>
-        <h2 className={'vertical-line' + ' header'}>Temparature</h2>
+        <h2 className={'vertical-line' + ' header'}>Temperature</h2>
         <h2 className={'vertical-line' + ' header'}>Feels Like</h2>
         <h2 className={'vertical-line' + ' header'}>Description</h2>
         <h2 className={'vertical-line' + ' header'}>Wind Speed</h2>
