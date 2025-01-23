@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import WeatherComponent from './components/weatherComponent'
+import SearchBar from './containers/searchBar'
 import './App.css'
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
   return (
     <div className='app'>
       <h1>weather-app</h1>
+      <SearchBar />
       <div className="headers">
         <h2 className='header'>Location</h2>
         <h2 className={'vertical-line' + ' header'}>Temperature</h2>

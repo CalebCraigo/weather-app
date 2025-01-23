@@ -11,35 +11,41 @@
 
 .locale-name{
     display: inline;
-    padding-right: 16.6%;
+    padding-right: 16%;
     color: #748398;
+    font-size: 20px;
 }
 
 .locale-temp{
     display: inline;
-    padding-right: 16.6%;
+    padding-right: 16%;
     color: #748398;
+    font-size: 20px;
 }
 
 .locale-feels-like{
     display: inline;
-    padding-right: 16.6%;
+    padding-right: 16%;
     color: #748398;
+    font-size: 20px;
 }
 
 .locale-weather{
     display: inline;
-    padding-right: 16.6%;
+    padding-right: 16%;
     color: #748398;
+    font-size: 20px;
 }
 
 .locale-wind-speed{
     display: inline;
-    padding-right: 16.6%;
+    padding-right: 16%;
     color: #748398;
+    font-size: 20px;
 }
 
 .locale-time{
     display: inline;
     color: #748398;
+    font-size: 20px;
 }
