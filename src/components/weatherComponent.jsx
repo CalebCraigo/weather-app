@@ -10,11 +10,14 @@ function WeatherComponent(props) {
   return (
     <div>
         {!fetchedData.isLoading ? 
-            <div>
-                <div>{fetchedData.data.data.location.name}</div>
-                <div>{fetchedData.data.data.current.temperature}</div>
-                <div>{fetchedData.data.data.current.weather_descriptions[0]}</div>
-                <div>{fetchedData.data.data.current.observation_time}</div>
+            <div className="info-box">
+                <div className="locale-name">{fetchedData.data.data.location.name}</div>
+                <div className="locale-temp">{fetchedData.data.data.current.temperature}</div>
+                <div className="locale-feels-like">{fetchedData.data.data.current.feelslike}</div>
+                <div className="locale-weather">{fetchedData.data.data.current.weather_descriptions[0]}</div>
+                {/* <div className="locale-weather-icons">{fetchedData.data.data.current.weather_icons}</div> */}
+                <div className="locale-wind-speed">{fetchedData.data.data.current.wind_speed}</div>
+                <div className="locale-time">{fetchedData.data.data.current.observation_time}</div>
             </div> :
             <div></div>
         

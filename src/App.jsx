@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import WeatherComponent from './components/weatherComponent'
 import './App.css'
 
@@ -48,7 +46,16 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div className='app'>
+      <h1>weather-app</h1>
+      <div className="headers">
+        <h2 className='header'>Location</h2>
+        <h2 className={'vertical-line' + ' header'}>Temparature</h2>
+        <h2 className={'vertical-line' + ' header'}>Feels Like</h2>
+        <h2 className={'vertical-line' + ' header'}>Description</h2>
+        <h2 className={'vertical-line' + ' header'}>Wind Speed</h2>
+        <h2 className={'vertical-line' + ' header-end'}>Current Time</h2>
+      </div>
       <WeatherComponent data={mockData}/>
     </div>
   )

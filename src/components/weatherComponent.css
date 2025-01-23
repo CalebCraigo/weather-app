@@ -1,0 +1,37 @@
+.info-box{
+    text-align: center;
+    border: solid;
+    margin-top: 2%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.locale-name{
+    display: inline;
+    padding-right: 16.6%;
+}
+
+.locale-temp{
+    display: inline;
+    padding-right: 16.6%;
+}
+
+.locale-feels-like{
+    display: inline;
+    padding-right: 16.6%;
+}
+
+.locale-weather{
+    display: inline;
+    padding-right: 16.6%;
+}
+
+.locale-wind-speed{
+    display: inline;
+    padding-right: 16.6%;
+}
+
+.locale-time{
+    display: inline;
+
+}
